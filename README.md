@@ -4,10 +4,10 @@ Bienvenue dans le projet "Defend Me" ! Ce projet de fin d'année vise à mettre 
 
 ## Objectifs
 Les principaux objectifs de "Defend Me" sont les suivants :
--Mettre en pratique les compétences et connaissances acquises dans le domaine de la Blue Team.
--Apprendre à détecter, analyser et répondre aux incidents de sécurité.
--Acquérir de l'expérience dans la configuration et l'utilisation d'outils de sécurité défensifs.
--Renforcer la compréhension des vulnérabilités et des techniques d'attaque courantes.
+- Mettre en pratique les compétences et connaissances acquises dans le domaine de la Blue Team.
+- Apprendre à détecter, analyser et répondre aux incidents de sécurité.
+- Acquérir de l'expérience dans la configuration et l'utilisation d'outils de sécurité défensifs.
+- Renforcer la compréhension des vulnérabilités et des techniques d'attaque courantes.
 
 ## Challenges 
 Les challenges de Defend ME sont conçus pour vous mettre au défi à différents niveaux de compétence (Débutant - Intermédiaire - Confirmé). Voici un aperçu des types de challenges que vous rencontrerez :
