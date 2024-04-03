@@ -1,6 +1,6 @@
 # Defend Me - Challenges BlueTeam
 ## Présentation
-Bienvenue dans le projet "Defend Me" ! Ce projet de fin d'année vise à mettre en pratique les compétences et connaissances de la Blue Team en matière de cybersécurité. À travers une série de challenges stimulants, vous aurez l'opportunité de renforcer vos compétences en détection d'intrusions, en analyse de logs, en réponse aux incidents et plus encore.
+Bienvenue dans le projet "Defend Me" ! Ce projet de fin d'année vise à mettre en pratique les compétences et connaissances de Blue Team. À travers une série de challenges stimulants, vous aurez l'opportunité de renforcer vos compétences en détection d'intrusions, en analyse de logs, en réponse aux incidents et plus encore.
 
 ## Objectifs
 Les principaux objectifs de "Defend Me" sont les suivants :
