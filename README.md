@@ -19,4 +19,4 @@ Les challenges de Defend ME sont conçus pour vous mettre au défi à différent
 
 ## Organisation du Répertoire
 - /Challenges : ce répertoire contient les différents challenges à relever, chacun étant organisé dans un sous-répertoire distinct.
-- /Docuementation : Vous trouverez ici des guides, des tutoriels, des ressources et des articles pour vous aider à relever les challenges et pour améliorer votre connaissance.
+- /Documentation : Vous trouverez ici des guides, des tutoriels, des ressources et des articles pour vous aider à relever les challenges et pour améliorer votre connaissance.
