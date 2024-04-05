@@ -1,0 +1,34 @@
+2024-04-03T16:11:20.964848+02:00 srv-web anacron[453]: Anacron 2.3 started on 2024-04-03
+2024-04-03T16:11:20.965084+02:00 srv-web anacron[453]: Normal exit (0 jobs run)
+2024-04-03T16:11:20.965135+02:00 srv-web cron[455]: (CRON) INFO (pidfile fd = 3)
+2024-04-03T16:11:20.965216+02:00 srv-web cron[455]: (CRON) INFO (Running @reboot jobs)
+2024-04-03T16:17:01.044317+02:00 srv-web CRON[1189]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-04-03T16:30:01.120541+02:00 srv-web CRON[2574]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2024-04-03T16:32:11.070815+02:00 srv-web anacron[2620]: Anacron 2.3 started on 2024-04-03
+2024-04-03T16:32:11.070968+02:00 srv-web anacron[2620]: Normal exit (0 jobs run)
+2024-04-03T16:39:01.596230+02:00 srv-web CRON[2698]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2024-04-03T17:09:01.748069+02:00 srv-web CRON[3107]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2024-04-03T17:17:01.802696+02:00 srv-web CRON[3196]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-04-03T16:47:50.673207+02:00 srv-web anacron[450]: Anacron 2.3 started on 2024-04-03
+2024-04-03T16:47:50.673214+02:00 srv-web cron[453]: (CRON) INFO (pidfile fd = 3)
+2024-04-03T16:47:50.673225+02:00 srv-web anacron[450]: Normal exit (0 jobs run)
+2024-04-03T16:47:50.673249+02:00 srv-web cron[453]: (CRON) INFO (Running @reboot jobs)
+2024-04-04T14:38:38.026389+02:00 srv-web cron[426]: (CRON) INFO (pidfile fd = 3)
+2024-04-04T14:38:38.026589+02:00 srv-web cron[426]: (CRON) INFO (Running @reboot jobs)
+2024-04-04T14:39:01.511971+02:00 srv-web CRON[1918]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2024-04-04T14:43:17.102974+02:00 srv-web cron[397]: (CRON) INFO (pidfile fd = 3)
+2024-04-04T14:43:17.103041+02:00 srv-web cron[397]: (CRON) INFO (Running @reboot jobs)
+2024-04-04T14:51:51.887470+02:00 srv-web anacron[451]: Anacron 2.3 started on 2024-04-04
+2024-04-04T14:51:51.887474+02:00 srv-web cron[453]: (CRON) INFO (pidfile fd = 3)
+2024-04-04T14:51:51.887503+02:00 srv-web cron[453]: (CRON) INFO (Running @reboot jobs)
+2024-04-04T14:51:51.887509+02:00 srv-web anacron[451]: Will run job `cron.daily' in 5 min.
+2024-04-04T14:51:51.887512+02:00 srv-web anacron[451]: Jobs will be executed sequentially
+2024-04-04T14:56:52.013789+02:00 srv-web anacron[451]: Job `cron.daily' started
+2024-04-04T14:56:52.403537+02:00 srv-web anacron[3779]: Updated timestamp for job `cron.daily' to 2024-04-04
+2024-04-04T14:56:52.656885+02:00 srv-web anacron[451]: Job `cron.daily' terminated
+2024-04-04T14:56:52.854079+02:00 srv-web anacron[451]: Normal exit (1 job run)
+2024-04-04T14:58:11.792870+02:00 srv-web anacron[451]: Anacron 2.3 started on 2024-04-04
+2024-04-04T14:58:11.792873+02:00 srv-web anacron[451]: Normal exit (0 jobs run)
+2024-04-04T14:58:11.792894+02:00 srv-web cron[454]: (CRON) INFO (pidfile fd = 3)
+2024-04-04T14:58:11.792898+02:00 srv-web cron[454]: (CRON) INFO (Running @reboot jobs)
+2024-04-04T15:09:01.682953+02:00 srv-web CRON[5640]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)

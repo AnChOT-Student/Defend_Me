@@ -1,0 +1,614 @@
+[     2.607] 
+X.Org X Server 1.21.1.7
+X Protocol Version 11, Revision 0
+[     2.609] Current Operating System: Linux (none) 6.1.0-10-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.38-1 (2023-07-14) x86_64
+[     2.609] Kernel command line: BOOT_IMAGE=/install.amd/vmlinuz vga=788 initrd=/install.amd/gtk/initrd.gz --- quiet 
+[     2.614] xorg-server 2:21.1.7-3 (https://www.debian.org/support) 
+[     2.616] Current version of pixman: 0.42.2
+[     2.620] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     2.620] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     2.632] (==) Log file: "/var/log/Xorg.0.log", Time: Sat Sep  2 15:30:34 2023
+[     2.635] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     2.635] (==) No Layout section.  Using the first Screen section.
+[     2.635] (==) No screen section available. Using defaults.
+[     2.635] (**) |-->Screen "Default Screen Section" (0)
+[     2.635] (**) |   |-->Monitor "<default monitor>"
+[     2.636] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     2.636] (==) Automatically adding devices
+[     2.636] (==) Automatically enabling devices
+[     2.636] (==) Automatically adding GPU devices
+[     2.636] (==) Automatically binding GPU devices
+[     2.636] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     2.636] (==) FontPath set to:
+	built-ins
+[     2.636] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     2.636] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     2.636] (II) Loader magic: 0x55cf23246b80
+[     2.636] (II) Module ABI versions:
+[     2.636] 	X.Org ANSI C Emulation: 0.4
+[     2.636] 	X.Org Video Driver: 25.2
+[     2.636] 	X.Org XInput driver : 24.4
+[     2.636] 	X.Org Server Extension : 10.0
+[     2.638] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[     2.638] (==) Matched vmware as autoconfigured driver 0
+[     2.638] (==) Matched modesetting as autoconfigured driver 1
+[     2.638] (==) Matched fbdev as autoconfigured driver 2
+[     2.638] (==) Matched vesa as autoconfigured driver 3
+[     2.638] (==) Assigned the driver to the xf86ConfigLayout
+[     2.638] (II) LoadModule: "vmware"
+[     2.638] (WW) Warning, couldn't open module vmware
+[     2.638] (EE) Failed to load module "vmware" (module does not exist, 0)
+[     2.638] (II) LoadModule: "modesetting"
+[     2.638] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     2.639] (II) Module modesetting: vendor="X.Org Foundation"
+[     2.639] 	compiled for 1.21.1.7, module version = 1.21.1
+[     2.639] 	Module class: X.Org Video Driver
+[     2.639] 	ABI class: X.Org Video Driver, version 25.2
+[     2.639] (II) LoadModule: "fbdev"
+[     2.639] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     2.639] (II) Module fbdev: vendor="X.Org Foundation"
+[     2.639] 	compiled for 1.21.1.3, module version = 0.5.0
+[     2.639] 	Module class: X.Org Video Driver
+[     2.639] 	ABI class: X.Org Video Driver, version 25.2
+[     2.639] (II) LoadModule: "vesa"
+[     2.639] (WW) Warning, couldn't open module vesa
+[     2.639] (EE) Failed to load module "vesa" (module does not exist, 0)
+[     2.639] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     2.639] (II) FBDEV: driver for framebuffer: fbdev
+[     2.639] (--) using VT number 5
+
+[     2.652] (EE) open /dev/dri/card0: No such file or directory
+[     2.652] (WW) Falling back to old probe method for modesetting
+[     2.652] (EE) open /dev/dri/card0: No such file or directory
+[     2.652] (II) Loading sub module "fbdevhw"
+[     2.652] (II) LoadModule: "fbdevhw"
+[     2.652] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     2.652] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     2.652] 	compiled for 1.21.1.7, module version = 0.0.2
+[     2.652] 	ABI class: X.Org Video Driver, version 25.2
+[     2.652] (EE) Unable to find a valid framebuffer device
+[     2.652] (WW) Falling back to old probe method for fbdev
+[     2.652] (II) Loading sub module "fbdevhw"
+[     2.652] (II) LoadModule: "fbdevhw"
+[     2.652] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     2.652] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     2.652] 	compiled for 1.21.1.7, module version = 0.0.2
+[     2.652] 	ABI class: X.Org Video Driver, version 25.2
+[     2.652] (II) FBDEV(2): using default device
+[     2.652] (EE) Screen 0 deleted because of no matching config section.
+[     2.652] (II) UnloadModule: "modesetting"
+[     2.652] (EE) Screen 0 deleted because of no matching config section.
+[     2.652] (II) UnloadModule: "fbdev"
+[     2.652] (II) UnloadSubModule: "fbdevhw"
+[     2.652] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 16/16
+[     2.652] (==) FBDEV(0): Depth 16, (==) framebuffer bpp 16
+[     2.652] (==) FBDEV(0): RGB weight 565
+[     2.652] (==) FBDEV(0): Default visual is TrueColor
+[     2.652] (II) FBDEV(0): hardware: VESA VGA (video memory: 1875kB)
+[     2.652] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[     2.652] (II) FBDEV(0): checking modes against framebuffer device...
+[     2.652] (II) FBDEV(0): checking modes against monitor...
+[     2.652] (II) FBDEV(0): Virtual size is 800x600 (pitch 800)
+[     2.652] (**) FBDEV(0):  Built-in mode "current": 48.0 MHz, 46.9 kHz, 75.1 Hz
+[     2.652] (II) FBDEV(0): Modeline "current"x0.0   48.00  800 832 928 1024  600 604 608 624 -hsync -vsync -csync (46.9 kHz b)
+[     2.652] (==) FBDEV(0): DPI set to (96, 96)
+[     2.652] (II) Loading sub module "fb"
+[     2.652] (II) LoadModule: "fb"
+[     2.652] (II) Module "fb" already built-in
+[     2.652] (**) FBDEV(0): using shadow framebuffer
+[     2.652] (II) Loading sub module "shadow"
+[     2.652] (II) LoadModule: "shadow"
+[     2.652] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[     2.652] (II) Module shadow: vendor="X.Org Foundation"
+[     2.652] 	compiled for 1.21.1.7, module version = 1.1.0
+[     2.652] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     2.652] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[     2.652] (==) FBDEV(0): Backing store disabled
+[     2.652] (WW) FBDEV(0): The fbdev driver didn't call xf86SetGamma() to initialise
+	the gamma values.
+[     2.652] (WW) FBDEV(0): PLEASE FIX THE `fbdev' DRIVER!
+[     2.652] (==) FBDEV(0): DPMS enabled
+[     2.652] (II) Initializing extension Generic Event Extension
+[     2.652] (II) Initializing extension SHAPE
+[     2.652] (II) Initializing extension MIT-SHM
+[     2.652] (II) Initializing extension XInputExtension
+[     2.652] (II) Initializing extension XTEST
+[     2.652] (II) Initializing extension BIG-REQUESTS
+[     2.652] (II) Initializing extension SYNC
+[     2.652] (II) Initializing extension XKEYBOARD
+[     2.652] (II) Initializing extension XC-MISC
+[     2.652] (II) Initializing extension XFIXES
+[     2.652] (II) Initializing extension RENDER
+[     2.652] (II) Initializing extension RANDR
+[     2.652] (II) Initializing extension DAMAGE
+[     2.652] (II) Initializing extension DOUBLE-BUFFER
+[     2.652] (II) Initializing extension DPMS
+[     2.652] (II) Initializing extension Present
+[     2.652] (II) Initializing extension DRI3
+[     2.652] (II) Initializing extension X-Resource
+[     2.652] (II) Initializing extension XFree86-DGA
+[     2.652] (II) Initializing extension DRI2
+[     2.668] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[     2.668] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[     2.668] (II) LoadModule: "libinput"
+[     2.669] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     2.669] (II) Module libinput: vendor="X.Org Foundation"
+[     2.669] 	compiled for 1.21.1.3, module version = 1.2.1
+[     2.669] 	Module class: X.Org XInput Driver
+[     2.669] 	ABI class: X.Org XInput driver, version 24.4
+[     2.669] (II) Using input driver 'libinput' for 'Video Bus'
+[     2.669] (**) Video Bus: always reports core events
+[     2.669] (**) Option "Device" "/dev/input/event1"
+[     2.670] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[     2.670] (II) event1  - Video Bus: device is a keyboard
+[     2.670] (II) event1  - Video Bus: device removed
+[     2.684] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[     2.684] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[     2.684] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[     2.684] (II) event1  - Video Bus: device is a keyboard
+[     2.685] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[     2.685] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[     2.685] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[     2.685] (**) AT Translated Set 2 keyboard: always reports core events
+[     2.685] (**) Option "Device" "/dev/input/event0"
+[     2.685] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     2.685] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[     2.685] (II) event0  - AT Translated Set 2 keyboard: device removed
+[     2.709] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[     2.709] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[     2.710] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     2.710] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[     2.710] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[     2.710] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[     2.710] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[     2.710] (**) Option "Device" "/dev/input/event2"
+[     2.710] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[     2.710] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[     2.711] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[     2.728] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[     2.728] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[     2.728] (**) Option "AccelerationScheme" "none"
+[     2.728] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[     2.728] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[     2.728] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[     2.729] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[     2.729] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[     2.729] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[     2.729] (II) No input driver specified, ignoring this device.
+[     2.729] (II) This device may have been added with another device file.
+[     2.734] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[     2.734] (II) No input driver specified, ignoring this device.
+[     2.734] (II) This device may have been added with another device file.
+[     2.814] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[     2.814] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[     2.814] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[     2.814] (**) VirtualBox USB Tablet: always reports core events
+[     2.814] (**) Option "Device" "/dev/input/event3"
+[     2.874] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[     2.874] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[     2.874] (II) event3  - VirtualBox USB Tablet: device removed
+[     2.896] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[     2.896] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[     2.896] (**) Option "AccelerationScheme" "none"
+[     2.896] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[     2.896] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[     2.896] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[     2.956] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[     2.957] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    18.205] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    18.205] (II) No input driver specified, ignoring this device.
+[    18.205] (II) This device may have been added with another device file.
+[    18.206] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[    18.206] (II) No input driver specified, ignoring this device.
+[    18.206] (II) This device may have been added with another device file.
+[    18.230] (II) config/udev: removing device VirtualBox USB Tablet
+[    18.230] (II) event3  - VirtualBox USB Tablet: device removed
+[    18.260] (II) UnloadModule: "libinput"
+[    18.260] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[    18.260] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    18.260] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    18.260] (**) VirtualBox USB Tablet: always reports core events
+[    18.260] (**) Option "Device" "/dev/input/event3"
+[    18.320] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    18.320] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    18.320] (II) event3  - VirtualBox USB Tablet: device removed
+[    18.344] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[    18.344] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[    18.344] (**) Option "AccelerationScheme" "none"
+[    18.344] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    18.344] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    18.344] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    18.404] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    18.404] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    18.405] (II) config/udev: removing device Video Bus
+[    18.405] (II) event1  - Video Bus: device removed
+[    18.412] (II) UnloadModule: "libinput"
+[    18.412] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[    18.412] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    18.412] (II) Using input driver 'libinput' for 'Video Bus'
+[    18.412] (**) Video Bus: always reports core events
+[    18.412] (**) Option "Device" "/dev/input/event1"
+[    18.412] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    18.412] (II) event1  - Video Bus: device is a keyboard
+[    18.413] (II) event1  - Video Bus: device removed
+[    18.420] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[    18.420] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    18.420] (**) Option "xkb_model" "pc105"
+[    18.420] (**) Option "xkb_layout" "fr"
+[    18.420] (**) Option "xkb_variant" "latin9"
+[    18.420] (WW) Option "xkb_options" requires a string value
+[    18.432] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    18.433] (II) event1  - Video Bus: device is a keyboard
+[    18.434] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[    18.434] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    18.444] (II) UnloadModule: "libinput"
+[    18.444] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[    18.444] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    18.444] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    18.444] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    18.444] (**) Option "Device" "/dev/input/event2"
+[    18.444] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    18.444] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    18.444] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    18.453] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[    18.453] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[    18.453] (**) Option "AccelerationScheme" "none"
+[    18.453] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    18.453] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    18.453] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    18.453] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    18.453] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    18.453] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    18.454] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    18.476] (II) UnloadModule: "libinput"
+[    18.476] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    18.476] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    18.476] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    18.476] (**) AT Translated Set 2 keyboard: always reports core events
+[    18.476] (**) Option "Device" "/dev/input/event0"
+[    18.476] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    18.476] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    18.476] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    18.500] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    18.500] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[    18.500] (**) Option "xkb_model" "pc105"
+[    18.500] (**) Option "xkb_layout" "fr"
+[    18.500] (**) Option "xkb_variant" "latin9"
+[    18.500] (WW) Option "xkb_options" requires a string value
+[    18.501] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    18.501] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    28.480] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[    28.480] (II) No input driver specified, ignoring this device.
+[    28.480] (II) This device may have been added with another device file.
+[    28.481] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    28.481] (II) No input driver specified, ignoring this device.
+[    28.481] (II) This device may have been added with another device file.
+[    28.513] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    28.513] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    28.539] (II) UnloadModule: "libinput"
+[    28.539] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    28.539] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    28.539] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    28.539] (**) AT Translated Set 2 keyboard: always reports core events
+[    28.539] (**) Option "Device" "/dev/input/event0"
+[    28.539] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    28.539] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    28.539] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    28.558] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    28.558] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[    28.558] (**) Option "xkb_model" "pc105"
+[    28.558] (**) Option "xkb_layout" "fr"
+[    28.558] (**) Option "xkb_variant" "latin9"
+[    28.558] (WW) Option "xkb_options" requires a string value
+[    28.559] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    28.559] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    28.559] (II) config/udev: removing device VirtualBox USB Tablet
+[    28.559] (II) event3  - VirtualBox USB Tablet: device removed
+[    28.598] (II) UnloadModule: "libinput"
+[    28.598] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[    28.598] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    28.598] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    28.598] (**) VirtualBox USB Tablet: always reports core events
+[    28.598] (**) Option "Device" "/dev/input/event3"
+[    28.661] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    28.661] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    28.661] (II) event3  - VirtualBox USB Tablet: device removed
+[    28.699] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[    28.699] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[    28.699] (**) Option "AccelerationScheme" "none"
+[    28.699] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    28.699] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    28.699] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    28.762] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    28.762] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    28.762] (II) config/udev: removing device Video Bus
+[    28.762] (II) event1  - Video Bus: device removed
+[    28.805] (II) UnloadModule: "libinput"
+[    28.805] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[    28.805] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    28.805] (II) Using input driver 'libinput' for 'Video Bus'
+[    28.805] (**) Video Bus: always reports core events
+[    28.805] (**) Option "Device" "/dev/input/event1"
+[    28.806] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    28.806] (II) event1  - Video Bus: device is a keyboard
+[    28.806] (II) event1  - Video Bus: device removed
+[    28.843] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[    28.843] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    28.843] (**) Option "xkb_model" "pc105"
+[    28.843] (**) Option "xkb_layout" "fr"
+[    28.843] (**) Option "xkb_variant" "latin9"
+[    28.843] (WW) Option "xkb_options" requires a string value
+[    28.844] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    28.844] (II) event1  - Video Bus: device is a keyboard
+[    28.850] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[    28.850] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    28.882] (II) UnloadModule: "libinput"
+[    28.882] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[    28.882] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    28.882] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    28.882] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    28.882] (**) Option "Device" "/dev/input/event2"
+[    28.882] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    28.882] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    28.882] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    28.920] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[    28.920] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[    28.920] (**) Option "AccelerationScheme" "none"
+[    28.920] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    28.920] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    28.920] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    28.920] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    28.920] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    90.517] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    90.517] (II) No input driver specified, ignoring this device.
+[    90.517] (II) This device may have been added with another device file.
+[    90.518] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[    90.518] (II) No input driver specified, ignoring this device.
+[    90.518] (II) This device may have been added with another device file.
+[    90.547] (II) config/udev: removing device VirtualBox USB Tablet
+[    90.547] (II) event3  - VirtualBox USB Tablet: device removed
+[    90.564] (II) UnloadModule: "libinput"
+[    90.564] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[    90.564] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    90.564] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    90.564] (**) VirtualBox USB Tablet: always reports core events
+[    90.564] (**) Option "Device" "/dev/input/event3"
+[    90.624] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    90.624] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    90.624] (II) event3  - VirtualBox USB Tablet: device removed
+[    90.648] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[    90.648] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[    90.648] (**) Option "AccelerationScheme" "none"
+[    90.648] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    90.648] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    90.648] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    90.708] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    90.709] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    90.709] (II) config/udev: removing device Video Bus
+[    90.709] (II) event1  - Video Bus: device removed
+[    90.724] (II) UnloadModule: "libinput"
+[    90.724] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[    90.724] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    90.724] (II) Using input driver 'libinput' for 'Video Bus'
+[    90.724] (**) Video Bus: always reports core events
+[    90.724] (**) Option "Device" "/dev/input/event1"
+[    90.724] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    90.724] (II) event1  - Video Bus: device is a keyboard
+[    90.724] (II) event1  - Video Bus: device removed
+[    90.748] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[    90.748] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    90.748] (**) Option "xkb_model" "pc105"
+[    90.748] (**) Option "xkb_layout" "fr"
+[    90.748] (**) Option "xkb_variant" "latin9"
+[    90.748] (WW) Option "xkb_options" requires a string value
+[    90.749] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[    90.749] (II) event1  - Video Bus: device is a keyboard
+[    90.754] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[    90.754] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    90.772] (II) UnloadModule: "libinput"
+[    90.772] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[    90.772] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    90.772] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    90.772] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    90.772] (**) Option "Device" "/dev/input/event2"
+[    90.772] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    90.772] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    90.773] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[    90.796] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[    90.796] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[    90.796] (**) Option "AccelerationScheme" "none"
+[    90.796] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    90.796] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    90.796] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    90.797] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    90.797] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    90.798] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    90.798] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    90.820] (II) UnloadModule: "libinput"
+[    90.821] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    90.821] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    90.821] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    90.821] (**) AT Translated Set 2 keyboard: always reports core events
+[    90.821] (**) Option "Device" "/dev/input/event0"
+[    90.822] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    90.822] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[    90.823] (II) event0  - AT Translated Set 2 keyboard: device removed
+[    90.844] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    90.844] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[    90.844] (**) Option "xkb_model" "pc105"
+[    90.844] (**) Option "xkb_layout" "fr"
+[    90.844] (**) Option "xkb_variant" "latin9"
+[    90.844] (WW) Option "xkb_options" requires a string value
+[    90.845] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    90.845] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[   116.550] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   116.550] (II) No input driver specified, ignoring this device.
+[   116.550] (II) This device may have been added with another device file.
+[   116.558] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   116.558] (II) No input driver specified, ignoring this device.
+[   116.558] (II) This device may have been added with another device file.
+[   116.563] (II) config/udev: removing device Video Bus
+[   116.563] (II) event1  - Video Bus: device removed
+[   116.576] (II) UnloadModule: "libinput"
+[   116.576] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[   116.576] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   116.576] (II) Using input driver 'libinput' for 'Video Bus'
+[   116.576] (**) Video Bus: always reports core events
+[   116.576] (**) Option "Device" "/dev/input/event1"
+[   116.576] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   116.576] (II) event1  - Video Bus: device is a keyboard
+[   116.576] (II) event1  - Video Bus: device removed
+[   116.588] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[   116.588] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[   116.588] (**) Option "xkb_model" "pc105"
+[   116.588] (**) Option "xkb_layout" "fr"
+[   116.588] (**) Option "xkb_variant" "latin9"
+[   116.588] (WW) Option "xkb_options" requires a string value
+[   116.589] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   116.589] (II) event1  - Video Bus: device is a keyboard
+[   116.589] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   116.589] (II) event0  - AT Translated Set 2 keyboard: device removed
+[   116.600] (II) UnloadModule: "libinput"
+[   116.600] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   116.600] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[   116.600] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[   116.600] (**) AT Translated Set 2 keyboard: always reports core events
+[   116.600] (**) Option "Device" "/dev/input/event0"
+[   116.600] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   116.600] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[   116.600] (II) event0  - AT Translated Set 2 keyboard: device removed
+[   116.612] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   116.612] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   116.612] (**) Option "xkb_model" "pc105"
+[   116.612] (**) Option "xkb_layout" "fr"
+[   116.612] (**) Option "xkb_variant" "latin9"
+[   116.612] (WW) Option "xkb_options" requires a string value
+[   116.613] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   116.613] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[   116.613] (II) config/udev: removing device VirtualBox USB Tablet
+[   116.613] (II) event3  - VirtualBox USB Tablet: device removed
+[   116.636] (II) UnloadModule: "libinput"
+[   116.636] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[   116.636] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[   116.636] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[   116.636] (**) VirtualBox USB Tablet: always reports core events
+[   116.636] (**) Option "Device" "/dev/input/event3"
+[   116.697] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[   116.697] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[   116.697] (II) event3  - VirtualBox USB Tablet: device removed
+[   116.716] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[   116.716] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[   116.716] (**) Option "AccelerationScheme" "none"
+[   116.716] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[   116.716] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   116.716] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   116.776] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[   116.776] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[   116.777] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   116.777] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[   116.794] (II) UnloadModule: "libinput"
+[   116.794] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[   116.794] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[   116.794] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[   116.794] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   116.794] (**) Option "Device" "/dev/input/event2"
+[   116.795] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   116.795] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   116.795] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[   116.816] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[   116.816] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   116.816] (**) Option "AccelerationScheme" "none"
+[   116.816] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[   116.816] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   116.816] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   116.817] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   116.817] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   261.261] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[   261.261] (II) No input driver specified, ignoring this device.
+[   261.261] (II) This device may have been added with another device file.
+[   261.263] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[   261.263] (II) No input driver specified, ignoring this device.
+[   261.263] (II) This device may have been added with another device file.
+[   261.288] (II) config/udev: removing device Video Bus
+[   261.288] (II) event1  - Video Bus: device removed
+[   261.296] (II) UnloadModule: "libinput"
+[   261.296] (II) config/udev: Adding input device Video Bus (/dev/input/event1)
+[   261.296] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   261.296] (II) Using input driver 'libinput' for 'Video Bus'
+[   261.296] (**) Video Bus: always reports core events
+[   261.296] (**) Option "Device" "/dev/input/event1"
+[   261.297] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   261.297] (II) event1  - Video Bus: device is a keyboard
+[   261.297] (II) event1  - Video Bus: device removed
+[   261.308] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2/event1"
+[   261.308] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[   261.308] (**) Option "xkb_model" "pc105"
+[   261.308] (**) Option "xkb_layout" "fr"
+[   261.308] (**) Option "xkb_variant" "latin9"
+[   261.308] (WW) Option "xkb_options" requires a string value
+[   261.308] (II) event1  - Video Bus: is tagged by udev as: Keyboard
+[   261.308] (II) event1  - Video Bus: device is a keyboard
+[   261.309] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   261.309] (II) event0  - AT Translated Set 2 keyboard: device removed
+[   261.328] (II) UnloadModule: "libinput"
+[   261.328] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   261.328] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[   261.328] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[   261.328] (**) AT Translated Set 2 keyboard: always reports core events
+[   261.328] (**) Option "Device" "/dev/input/event0"
+[   261.329] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   261.329] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[   261.329] (II) event0  - AT Translated Set 2 keyboard: device removed
+[   261.340] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   261.340] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[   261.340] (**) Option "xkb_model" "pc105"
+[   261.340] (**) Option "xkb_layout" "fr"
+[   261.340] (**) Option "xkb_variant" "latin9"
+[   261.340] (WW) Option "xkb_options" requires a string value
+[   261.340] (II) event0  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[   261.340] (II) event0  - AT Translated Set 2 keyboard: device is a keyboard
+[   261.341] (II) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[   261.341] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[   261.360] (II) UnloadModule: "libinput"
+[   261.361] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event2)
+[   261.361] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[   261.361] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[   261.361] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[   261.361] (**) Option "Device" "/dev/input/event2"
+[   261.361] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   261.361] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   261.361] (II) event2  - ImExPS/2 Generic Explorer Mouse: device removed
+[   261.368] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event2"
+[   261.368] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 8)
+[   261.368] (**) Option "AccelerationScheme" "none"
+[   261.368] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[   261.368] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[   261.368] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[   261.368] (II) event2  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[   261.368] (II) event2  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[   261.368] (II) config/udev: removing device VirtualBox USB Tablet
+[   261.368] (II) event3  - VirtualBox USB Tablet: device removed
+[   261.400] (II) UnloadModule: "libinput"
+[   261.400] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[   261.400] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[   261.400] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[   261.400] (**) VirtualBox USB Tablet: always reports core events
+[   261.400] (**) Option "Device" "/dev/input/event3"
+[   261.461] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[   261.461] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[   261.461] (II) event3  - VirtualBox USB Tablet: device removed
+[   261.504] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[   261.504] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 9)
+[   261.504] (**) Option "AccelerationScheme" "none"
+[   261.504] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[   261.504] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[   261.504] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[   261.565] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[   261.565] (II) event3  - VirtualBox USB Tablet: device is a pointer

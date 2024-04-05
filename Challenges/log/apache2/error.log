@@ -1,0 +1,24 @@
+[Wed Apr 03 15:21:09.562034 2024] [mpm_prefork:notice] [pid 2609] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 15:21:09.562151 2024] [core:notice] [pid 2609] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 15:33:37.948688 2024] [mpm_prefork:notice] [pid 683] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 15:33:37.950730 2024] [core:notice] [pid 683] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 15:40:55.856078 2024] [mpm_prefork:notice] [pid 1806] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 15:40:55.857069 2024] [core:notice] [pid 1806] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 15:52:08.683651 2024] [mpm_prefork:notice] [pid 1806] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 03 15:52:53.977753 2024] [mpm_prefork:notice] [pid 1734] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 15:52:53.978494 2024] [core:notice] [pid 1734] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 16:09:35.133636 2024] [mpm_prefork:notice] [pid 711] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 16:09:35.134625 2024] [core:notice] [pid 711] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 16:11:50.131691 2024] [mpm_prefork:notice] [pid 1169] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 16:11:50.132496 2024] [core:notice] [pid 1169] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 03 17:21:17.206767 2024] [mpm_prefork:notice] [pid 1169] AH00170: caught SIGWINCH, shutting down gracefully
+[Wed Apr 03 17:21:57.687798 2024] [mpm_prefork:notice] [pid 1671] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Wed Apr 03 17:21:57.696618 2024] [core:notice] [pid 1671] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 04 14:39:05.821107 2024] [mpm_prefork:notice] [pid 1524] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Thu Apr 04 14:39:05.848594 2024] [core:notice] [pid 1524] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 04 14:43:20.186726 2024] [mpm_prefork:notice] [pid 684] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Thu Apr 04 14:43:20.188917 2024] [core:notice] [pid 684] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 04 14:51:53.088540 2024] [mpm_prefork:notice] [pid 636] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Thu Apr 04 14:51:53.089292 2024] [core:notice] [pid 636] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 04 14:58:12.960582 2024] [mpm_prefork:notice] [pid 666] AH00163: Apache/2.4.57 (Debian) configured -- resuming normal operations
+[Thu Apr 04 14:58:12.962148 2024] [core:notice] [pid 666] AH00094: Command line: '/usr/sbin/apache2'

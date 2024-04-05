@@ -1,0 +1,231 @@
+2024-04-03T16:10:16.887362+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T16:10:24.047472+02:00 srv-web dbus-daemon[457]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-04-03T16:10:27.136768+02:00 srv-web sudo:    user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/tail /var/log/
+2024-04-03T16:10:27.137158+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T16:10:27.141831+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2024-04-03T16:11:21.011514+02:00 srv-web polkitd[459]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-03T16:11:21.011550+02:00 srv-web polkitd[459]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-03T16:11:21.070126+02:00 srv-web systemd-logind[463]: New seat seat0.
+2024-04-03T16:11:21.102668+02:00 srv-web systemd-logind[463]: Watching system buttons on /dev/input/event1 (Power Button)
+2024-04-03T16:11:21.102843+02:00 srv-web systemd-logind[463]: Watching system buttons on /dev/input/event3 (Sleep Button)
+2024-04-03T16:11:21.103070+02:00 srv-web systemd-logind[463]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2024-04-03T16:11:21.106275+02:00 srv-web polkitd[459]: Finished loading, compiling and executing 11 rules
+2024-04-03T16:11:21.112047+02:00 srv-web polkitd[459]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-03T16:11:21.841829+02:00 srv-web sshd[617]: Server listening on 0.0.0.0 port 22.
+2024-04-03T16:11:21.842033+02:00 srv-web sshd[617]: Server listening on :: port 22.
+2024-04-03T16:11:21.975719+02:00 srv-web gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=112) by (uid=0)
+2024-04-03T16:11:22.012413+02:00 srv-web systemd-logind[463]: New session c1 of user Debian-gdm.
+2024-04-03T16:11:22.040506+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=112) by (uid=0)
+2024-04-03T16:11:25.515452+02:00 srv-web polkitd[459]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+2024-04-03T16:11:27.063656+02:00 srv-web realmd[1152]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+2024-04-03T16:11:27.063823+02:00 srv-web realmd[1152]: holding daemon: startup
+2024-04-03T16:11:27.063892+02:00 srv-web realmd[1152]: starting service
+2024-04-03T16:11:27.064954+02:00 srv-web realmd[1152]: GLib-GIO: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+2024-04-03T16:11:27.065988+02:00 srv-web realmd[1152]: connected to bus
+2024-04-03T16:11:27.067040+02:00 srv-web realmd[1152]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+2024-04-03T16:11:27.067263+02:00 srv-web realmd[1152]: released daemon: startup
+2024-04-03T16:11:27.068791+02:00 srv-web realmd[1152]: claimed name on bus: org.freedesktop.realmd
+2024-04-03T16:12:28.781224+02:00 srv-web realmd[1152]: quitting realmd service after timeout
+2024-04-03T16:12:28.783779+02:00 srv-web realmd[1152]: stopping service
+2024-04-03T16:17:01.043896+02:00 srv-web CRON[1188]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T16:17:01.048641+02:00 srv-web CRON[1188]: pam_unix(cron:session): session closed for user root
+2024-04-03T16:17:47.825447+02:00 srv-web sshd[1192]: Received disconnect from 192.168.1.20 port 54732:11: Bye Bye [preauth]
+2024-04-03T16:17:47.825781+02:00 srv-web sshd[1192]: Disconnected from authenticating user tulipe38 192.168.1.20 port 54732 [preauth]
+2024-04-03T16:17:48.269772+02:00 srv-web sshd[1199]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.279331+02:00 srv-web sshd[1196]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.294331+02:00 srv-web sshd[1195]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.321011+02:00 srv-web sshd[1201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.321601+02:00 srv-web sshd[1194]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.345070+02:00 srv-web sshd[1197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.368056+02:00 srv-web sshd[1198]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.369884+02:00 srv-web sshd[1200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:17:48.370654+02:00 srv-web sshd[1202]: Accepted password for tulipe38 from 192.168.1.20 port 54808 ssh2
+2024-04-03T16:17:48.371175+02:00 srv-web sshd[1202]: pam_unix(sshd:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:17:48.417780+02:00 srv-web systemd-logind[463]: New session 3 of user tulipe38.
+2024-04-03T16:17:48.437823+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:17:48.606919+02:00 srv-web sshd[1202]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-04-03T16:17:48.608607+02:00 srv-web sshd[1202]: pam_unix(sshd:session): session closed for user tulipe38
+2024-04-03T16:17:48.625996+02:00 srv-web systemd-logind[463]: Session 3 logged out. Waiting for processes to exit.
+2024-04-03T16:17:48.628898+02:00 srv-web systemd-logind[463]: Removed session 3.
+2024-04-03T16:17:50.670468+02:00 srv-web sshd[1196]: Failed password for tulipe38 from 192.168.1.20 port 54738 ssh2
+2024-04-03T16:17:50.671476+02:00 srv-web sshd[1199]: Failed password for tulipe38 from 192.168.1.20 port 54774 ssh2
+2024-04-03T16:17:50.680347+02:00 srv-web sshd[1195]: Failed password for tulipe38 from 192.168.1.20 port 54746 ssh2
+2024-04-03T16:17:50.732141+02:00 srv-web sshd[1197]: Failed password for tulipe38 from 192.168.1.20 port 54752 ssh2
+2024-04-03T16:17:50.732478+02:00 srv-web sshd[1194]: Failed password for tulipe38 from 192.168.1.20 port 54736 ssh2
+2024-04-03T16:17:50.758394+02:00 srv-web sshd[1201]: Failed password for tulipe38 from 192.168.1.20 port 54792 ssh2
+2024-04-03T16:17:50.758897+02:00 srv-web sshd[1200]: Failed password for tulipe38 from 192.168.1.20 port 54782 ssh2
+2024-04-03T16:17:50.759326+02:00 srv-web sshd[1198]: Failed password for tulipe38 from 192.168.1.20 port 54760 ssh2
+2024-04-03T16:17:52.641669+02:00 srv-web sshd[1201]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54792 [preauth]
+2024-04-03T16:17:52.642333+02:00 srv-web sshd[1198]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54760 [preauth]
+2024-04-03T16:17:52.711076+02:00 srv-web sshd[1196]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54738 [preauth]
+2024-04-03T16:17:52.712804+02:00 srv-web sshd[1194]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54736 [preauth]
+2024-04-03T16:17:52.714522+02:00 srv-web sshd[1195]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54746 [preauth]
+2024-04-03T16:17:52.716209+02:00 srv-web sshd[1199]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54774 [preauth]
+2024-04-03T16:17:52.717674+02:00 srv-web sshd[1197]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54752 [preauth]
+2024-04-03T16:17:52.720867+02:00 srv-web sshd[1200]: Connection closed by authenticating user tulipe38 192.168.1.20 port 54782 [preauth]
+2024-04-03T16:25:06.972006+02:00 srv-web gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-03T16:25:06.987657+02:00 srv-web gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-03T16:25:07.028707+02:00 srv-web gdm-password]: pam_unix(gdm-password:session): session opened for user user1(uid=1000) by (uid=0)
+2024-04-03T16:25:07.034311+02:00 srv-web systemd-logind[463]: New session 5 of user user1.
+2024-04-03T16:25:07.051608+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user user1(uid=1000) by (uid=0)
+2024-04-03T16:25:07.286471+02:00 srv-web gdm-password]: gkr-pam: unlocked login keyring
+2024-04-03T16:25:07.674153+02:00 srv-web gnome-keyring-daemon[1404]: The Secret Service was already initialized
+2024-04-03T16:25:07.674268+02:00 srv-web gnome-keyring-daemon[1404]: The PKCS#11 component was already initialized
+2024-04-03T16:25:07.674574+02:00 srv-web gnome-keyring-daemon[1535]: discover_other_daemon: 1
+2024-04-03T16:25:07.677031+02:00 srv-web gnome-keyring-daemon[1534]: discover_other_daemon: 1
+2024-04-03T16:25:07.681454+02:00 srv-web gnome-keyring-daemon[1536]: discover_other_daemon: 1
+2024-04-03T16:25:08.679794+02:00 srv-web polkitd[459]: Registered Authentication Agent for unix-session:5 (system bus name :1.87 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+2024-04-03T16:25:10.981413+02:00 srv-web gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+2024-04-03T16:25:11.004663+02:00 srv-web systemd-logind[463]: Session c1 logged out. Waiting for processes to exit.
+2024-04-03T16:25:11.056406+02:00 srv-web polkitd[459]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+2024-04-03T16:25:11.062044+02:00 srv-web systemd-logind[463]: Removed session c1.
+2024-04-03T16:25:13.649930+02:00 srv-web PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2024-04-03T16:25:13.655436+02:00 srv-web PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2024-04-03T16:25:36.799960+02:00 srv-web dbus-daemon[456]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-04-03T16:25:46.026518+02:00 srv-web sudo:    user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/tail /var/log/auth.log
+2024-04-03T16:25:46.027112+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T16:25:46.039217+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T16:26:05.502605+02:00 srv-web sshd[2113]: Received disconnect from 192.168.1.20 port 58790:11: Bye Bye [preauth]
+2024-04-03T16:26:05.502956+02:00 srv-web sshd[2113]: Disconnected from authenticating user tulipe38 192.168.1.20 port 58790 [preauth]
+2024-04-03T16:26:05.973451+02:00 srv-web sshd[2118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.028637+02:00 srv-web sshd[2117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.045373+02:00 srv-web sshd[2116]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.046621+02:00 srv-web sshd[2123]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.048006+02:00 srv-web sshd[2121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.056054+02:00 srv-web sshd[2115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.062916+02:00 srv-web sshd[2120]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.069377+02:00 srv-web sshd[2122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.20  user=tulipe38
+2024-04-03T16:26:06.287983+02:00 srv-web sshd[2119]: Accepted password for tulipe38 from 192.168.1.20 port 58812 ssh2
+2024-04-03T16:26:06.289831+02:00 srv-web sshd[2119]: pam_unix(sshd:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:26:06.345700+02:00 srv-web systemd-logind[463]: New session 7 of user tulipe38.
+2024-04-03T16:26:06.367714+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:26:06.508580+02:00 srv-web sshd[2119]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-04-03T16:26:06.511482+02:00 srv-web sshd[2119]: pam_unix(sshd:session): session closed for user tulipe38
+2024-04-03T16:26:06.517782+02:00 srv-web systemd-logind[463]: Session 7 logged out. Waiting for processes to exit.
+2024-04-03T16:26:06.521572+02:00 srv-web systemd-logind[463]: Removed session 7.
+2024-04-03T16:26:08.155814+02:00 srv-web sshd[2122]: Failed password for tulipe38 from 192.168.1.20 port 58836 ssh2
+2024-04-03T16:26:08.171595+02:00 srv-web sshd[2117]: Failed password for tulipe38 from 192.168.1.20 port 58804 ssh2
+2024-04-03T16:26:08.171848+02:00 srv-web sshd[2121]: Failed password for tulipe38 from 192.168.1.20 port 58826 ssh2
+2024-04-03T16:26:08.172272+02:00 srv-web sshd[2116]: Failed password for tulipe38 from 192.168.1.20 port 58802 ssh2
+2024-04-03T16:26:08.172692+02:00 srv-web sshd[2118]: Failed password for tulipe38 from 192.168.1.20 port 58810 ssh2
+2024-04-03T16:26:08.173090+02:00 srv-web sshd[2115]: Failed password for tulipe38 from 192.168.1.20 port 58792 ssh2
+2024-04-03T16:26:08.173519+02:00 srv-web sshd[2120]: Failed password for tulipe38 from 192.168.1.20 port 58820 ssh2
+2024-04-03T16:26:08.173918+02:00 srv-web sshd[2123]: Failed password for tulipe38 from 192.168.1.20 port 58848 ssh2
+2024-04-03T16:26:08.188210+02:00 srv-web sshd[2123]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58848 [preauth]
+2024-04-03T16:26:08.221090+02:00 srv-web sshd[2122]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58836 [preauth]
+2024-04-03T16:26:10.249710+02:00 srv-web sshd[2116]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58802 [preauth]
+2024-04-03T16:26:10.252422+02:00 srv-web sshd[2118]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58810 [preauth]
+2024-04-03T16:26:10.253484+02:00 srv-web sshd[2117]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58804 [preauth]
+2024-04-03T16:26:10.255555+02:00 srv-web sshd[2120]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58820 [preauth]
+2024-04-03T16:26:10.269216+02:00 srv-web sshd[2115]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58792 [preauth]
+2024-04-03T16:26:10.321088+02:00 srv-web sshd[2121]: Connection closed by authenticating user tulipe38 192.168.1.20 port 58826 [preauth]
+2024-04-03T16:26:13.821791+02:00 srv-web sudo:    user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/tail /var/log/auth.log
+2024-04-03T16:26:13.823687+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T16:26:13.827696+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T16:26:35.483376+02:00 srv-web sudo:    user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2024-04-03T16:26:35.484004+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T16:26:35.486984+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T16:29:21.730152+02:00 srv-web sshd[2443]: Accepted password for tulipe38 from 192.168.1.20 port 57154 ssh2
+2024-04-03T16:29:21.731082+02:00 srv-web sshd[2443]: pam_unix(sshd:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:29:21.758501+02:00 srv-web systemd-logind[463]: New session 9 of user tulipe38.
+2024-04-03T16:29:21.771942+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T16:29:21.957579+02:00 srv-web sshd[2443]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-04-03T16:30:01.119861+02:00 srv-web CRON[2573]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T16:30:01.122490+02:00 srv-web CRON[2573]: pam_unix(cron:session): session closed for user root
+2024-04-03T16:30:50.417041+02:00 srv-web sshd[2483]: Received disconnect from 192.168.1.20 port 57154:11: disconnected by user
+2024-04-03T16:30:50.421126+02:00 srv-web sshd[2483]: Disconnected from user tulipe38 192.168.1.20 port 57154
+2024-04-03T16:30:50.421359+02:00 srv-web sshd[2443]: pam_unix(sshd:session): session closed for user tulipe38
+2024-04-03T16:30:50.427005+02:00 srv-web systemd-logind[463]: Session 9 logged out. Waiting for processes to exit.
+2024-04-03T16:30:50.433135+02:00 srv-web systemd-logind[463]: Removed session 9.
+2024-04-03T16:39:01.595911+02:00 srv-web CRON[2697]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T16:39:01.598339+02:00 srv-web CRON[2697]: pam_unix(cron:session): session closed for user root
+2024-04-03T17:00:54.150228+02:00 srv-web gdm-password]: gkr-pam: unlocked login keyring
+2024-04-03T17:01:51.776534+02:00 srv-web su[2830]: (to root) user1 on pts/0
+2024-04-03T17:01:51.781572+02:00 srv-web su[2830]: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T17:02:01.912977+02:00 srv-web sudo:     root : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/usr/sbin/visudo
+2024-04-03T17:02:01.913258+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T17:02:30.106269+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T17:04:24.291697+02:00 srv-web su[2830]: pam_unix(su:session): session closed for user root
+2024-04-03T17:04:51.472988+02:00 srv-web sshd[2851]: Accepted password for tulipe38 from 192.168.1.20 port 38036 ssh2
+2024-04-03T17:04:51.475479+02:00 srv-web sshd[2851]: pam_unix(sshd:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T17:04:51.521704+02:00 srv-web systemd-logind[463]: New session 13 of user tulipe38.
+2024-04-03T17:04:51.539982+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user tulipe38(uid=1001) by (uid=0)
+2024-04-03T17:04:51.711541+02:00 srv-web sshd[2851]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-04-03T17:05:47.177761+02:00 srv-web sudo: tulipe38 : TTY=pts/1 ; PWD=/home/tulipe38 ; USER=root ; COMMAND=/usr/bin/python3 -c 'import os; os.system("/bin/sh")'
+2024-04-03T17:05:47.178366+02:00 srv-web sudo: pam_unix(sudo:session): session opened for user root(uid=0) by tulipe38(uid=1001)
+2024-04-03T17:05:55.762959+02:00 srv-web sudo: pam_unix(sudo:session): session closed for user root
+2024-04-03T17:05:56.115365+02:00 srv-web sshd[2901]: Received disconnect from 192.168.1.20 port 38036:11: disconnected by user
+2024-04-03T17:05:56.115540+02:00 srv-web sshd[2901]: Disconnected from user tulipe38 192.168.1.20 port 38036
+2024-04-03T17:05:56.116149+02:00 srv-web sshd[2851]: pam_unix(sshd:session): session closed for user tulipe38
+2024-04-03T17:05:56.124214+02:00 srv-web systemd-logind[463]: Session 13 logged out. Waiting for processes to exit.
+2024-04-03T17:05:56.126775+02:00 srv-web systemd-logind[463]: Removed session 13.
+2024-04-03T17:06:42.642541+02:00 srv-web su[3090]: (to root) user1 on pts/0
+2024-04-03T17:06:42.642826+02:00 srv-web su[3090]: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T17:09:01.746977+02:00 srv-web CRON[3106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T17:09:01.749605+02:00 srv-web CRON[3106]: pam_unix(cron:session): session closed for user root
+2024-04-03T17:17:01.790773+02:00 srv-web CRON[3195]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-04-03T17:17:01.802921+02:00 srv-web CRON[3195]: pam_unix(cron:session): session closed for user root
+2024-04-03T17:17:51.622885+02:00 srv-web gdm-password]: gkr-pam: unlocked login keyring
+2024-04-03T17:18:52.803160+02:00 srv-web su[3090]: pam_unix(su:session): session closed for user root
+2024-04-03T17:19:46.224088+02:00 srv-web polkitd[459]: Operator of unix-session:5 successfully authenticated as unix-user:user1 to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:3407:410600 [/bin/sh /media/cdrom0/runasroot.sh --has-terminal VirtualBox Guest Additions installation /bin/sh /media/cdrom0/VBoxLinuxAdditions\.run --xwin Please try running "/media/cdrom0/VBoxLinuxAdditions.run" manually.] (owned by unix-user:user1)
+2024-04-03T17:19:46.228935+02:00 srv-web pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-04-03T17:19:46.229949+02:00 srv-web pkexec[3414]: user1: Executing command [USER=root] [TTY=/dev/pts/0] [CWD=/media/cdrom0] [COMMAND=/bin/sh /media/cdrom0/VBoxLinuxAdditions.run --xwin]
+2024-04-03T17:19:55.546165+02:00 srv-web useradd[3752]: new user: name=vboxadd, UID=999, GID=1, home=/var/run/vboxadd, shell=/bin/false, from=/dev/pts/0
+2024-04-03T17:19:55.568355+02:00 srv-web useradd[3759]: failed adding user 'vboxadd', exit code: 9
+2024-04-03T17:19:55.634213+02:00 srv-web groupadd[3768]: group added to /etc/group: name=vboxsf, GID=994
+2024-04-03T17:19:55.640339+02:00 srv-web groupadd[3768]: group added to /etc/gshadow: name=vboxsf
+2024-04-03T17:19:55.642174+02:00 srv-web groupadd[3768]: new group: name=vboxsf, GID=994
+2024-04-03T17:19:55.662389+02:00 srv-web groupadd[3775]: group added to /etc/group: name=vboxdrmipc, GID=993
+2024-04-03T17:19:55.668297+02:00 srv-web groupadd[3775]: group added to /etc/gshadow: name=vboxdrmipc
+2024-04-03T17:19:55.670173+02:00 srv-web groupadd[3775]: new group: name=vboxdrmipc, GID=993
+2024-04-03T17:20:06.291126+02:00 srv-web useradd[4578]: failed adding user 'vboxadd', exit code: 9
+2024-04-03T17:20:06.293561+02:00 srv-web useradd[4579]: failed adding user 'vboxadd', exit code: 9
+2024-04-03T17:21:05.093183+02:00 srv-web systemd-logind[463]: The system will reboot now!
+2024-04-03T17:21:05.115132+02:00 srv-web systemd-logind[463]: System is rebooting.
+2024-04-03T16:47:50.731414+02:00 srv-web polkitd[457]: Loading rules from directory /etc/polkit-1/rules.d
+2024-04-03T16:47:50.731451+02:00 srv-web polkitd[457]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-04-03T16:47:50.866885+02:00 srv-web polkitd[457]: Finished loading, compiling and executing 11 rules
+2024-04-03T16:47:50.875552+02:00 srv-web polkitd[457]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-04-03T16:47:50.886480+02:00 srv-web systemd-logind[461]: New seat seat0.
+2024-04-03T16:47:50.888310+02:00 srv-web systemd-logind[461]: Watching system buttons on /dev/input/event1 (Power Button)
+2024-04-03T16:47:50.888367+02:00 srv-web systemd-logind[461]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2024-04-03T16:47:50.888404+02:00 srv-web systemd-logind[461]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2024-04-03T16:47:51.518680+02:00 srv-web sshd[603]: Server listening on 0.0.0.0 port 22.
+2024-04-03T16:47:51.518753+02:00 srv-web sshd[603]: Server listening on :: port 22.
+2024-04-03T16:47:51.718437+02:00 srv-web useradd[707]: failed adding user 'vboxadd', exit code: 9
+2024-04-03T16:47:51.721601+02:00 srv-web useradd[720]: failed adding user 'vboxadd', exit code: 9
+2024-04-03T17:21:43.870329+02:00 srv-web gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm(uid=112) by (uid=0)
+2024-04-03T17:21:43.899858+02:00 srv-web systemd-logind[461]: New session c1 of user Debian-gdm.
+2024-04-03T17:21:43.919668+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user Debian-gdm(uid=112) by (uid=0)
+2024-04-03T17:21:46.506900+02:00 srv-web polkitd[457]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+2024-04-03T17:21:47.474970+02:00 srv-web realmd[1956]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+2024-04-03T17:21:47.475229+02:00 srv-web realmd[1956]: holding daemon: startup
+2024-04-03T17:21:47.475341+02:00 srv-web realmd[1956]: starting service
+2024-04-03T17:21:47.476324+02:00 srv-web realmd[1956]: GLib-GIO: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+2024-04-03T17:21:47.477408+02:00 srv-web realmd[1956]: connected to bus
+2024-04-03T17:21:47.478684+02:00 srv-web realmd[1956]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+2024-04-03T17:21:47.478729+02:00 srv-web realmd[1956]: released daemon: startup
+2024-04-03T17:21:47.480478+02:00 srv-web realmd[1956]: claimed name on bus: org.freedesktop.realmd
+2024-04-03T17:21:53.074010+02:00 srv-web gdm-password]: gkr-pam: unable to locate daemon control file
+2024-04-03T17:21:53.074213+02:00 srv-web gdm-password]: gkr-pam: stashed password to try later in open session
+2024-04-03T17:21:53.078924+02:00 srv-web gdm-password]: pam_unix(gdm-password:session): session opened for user user1(uid=1000) by (uid=0)
+2024-04-03T17:21:53.107463+02:00 srv-web systemd-logind[461]: New session 2 of user user1.
+2024-04-03T17:21:53.122864+02:00 srv-web (systemd): pam_unix(systemd-user:session): session opened for user user1(uid=1000) by (uid=0)
+2024-04-03T17:21:53.356990+02:00 srv-web gdm-password]: gkr-pam: unlocked login keyring
+2024-04-03T17:21:53.756081+02:00 srv-web gnome-keyring-daemon[2055]: The Secret Service was already initialized
+2024-04-03T17:21:53.756718+02:00 srv-web gnome-keyring-daemon[2055]: The PKCS#11 component was already initialized
+2024-04-03T17:21:53.756921+02:00 srv-web gnome-keyring-daemon[2191]: discover_other_daemon: 1
+2024-04-03T17:21:53.757273+02:00 srv-web gnome-keyring-daemon[2190]: discover_other_daemon: 1
+2024-04-03T17:21:53.757564+02:00 srv-web gnome-keyring-daemon[2189]: discover_other_daemon: 1
+2024-04-03T17:21:54.601393+02:00 srv-web polkitd[457]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+2024-04-03T17:21:56.958664+02:00 srv-web gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user Debian-gdm
+2024-04-03T17:21:56.967231+02:00 srv-web systemd-logind[461]: Session c1 logged out. Waiting for processes to exit.
+2024-04-03T17:21:57.045998+02:00 srv-web polkitd[457]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8) (disconnected from bus)
+2024-04-03T17:21:57.056475+02:00 srv-web systemd-logind[461]: Removed session c1.
+2024-04-03T17:21:59.959361+02:00 srv-web PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2024-04-03T17:21:59.965983+02:00 srv-web PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2024-04-03T17:22:23.012631+02:00 srv-web dbus-daemon[454]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-04-03T17:22:48.857286+02:00 srv-web realmd[1956]: quitting realmd service after timeout
+2024-04-03T17:22:48.858072+02:00 srv-web realmd[1956]: stopping service
+2024-04-03T17:23:04.458270+02:00 srv-web su[2885]: (to root) user1 on pts/0
+2024-04-03T17:23:04.458682+02:00 srv-web su[2885]: pam_unix(su:session): session opened for user root(uid=0) by (uid=1000)
